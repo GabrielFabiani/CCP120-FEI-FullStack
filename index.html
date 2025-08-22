@@ -2,18 +2,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Chamando o css -->
+    <link rel="stylesheet" href="CSS/estilo.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu site</title>
 </head>
-<body>
+<body style="background-color: #f0c385; color: #333;">
     <!-- Atualizado! -->
     <!-- Meu nome com h1 -->
-    <H1>Gabriel Fabiani</H1>
-    <!-- Tags p -->
-    <p>Moro em Sbc, tenho 18 anos e atualmente vou estagiar na prefeitura de Santo André como desenvolvedor de software</p>
+    <H1 id="titulo">Gabriel Fabiani</H1>
+    <!-- DIV para estilização -->
+    <div id="texto1">
+        <!-- Tags p -->
+        <p>Olá,muito prazer ! atualmente moro em Sbc, tenho 18 anos e atualmente vou estagiar na prefeitura de Santo André como desenvolvedor de software</p>
     <p>Tenho alguns cursos técnicos</p>
-    <p>O que eu gosto de fazer</p>
+    <p style="font-weight: bold;">O que eu gosto de fazer:</p>
+    </div>
     <ol start="1">
         <!-- Listas -->
         <li>Ir para igreja</li>
@@ -28,24 +33,27 @@
         <li>PC: Hardware and Software - Cisco Networking Academy</li>
     </ul>
     <p>Lugares que mais gosto de visitar</p>
-    <ul>
+    
         <!-- Imagens -->
-        <li><p>Casa da namorada</p><img src="img/casa-da-namorada.webp"></li>
-        <li><p>Academia</p><img src="img/academia.jpg"></li>
-        <li><p>Tocar violino</p><img src="img/violino.jpg"></li>
-        <li><p>Feijoada, mas com torresmo</p><img src="img/feijoada.jpg"></li>
-        <li><p>Automobilismo</p><img src="img/automobilismo.jpg"></li>
-    </ul>
+        <p id="ttimg1">Casa da namorada</p><img id="img1" src="img/casa-da-namorada.webp">
+        <p id="ttimg2">Academia</p><img id="img2" src="img/academia.jpg">
+        <p id="ttimg3">Tocar violino</p><img id="img3"  src="img/violino.jpg">
+        <p id="ttimg4">Feijoada, mas com torresmo</p><img id="img4"  src="img/feijoada.jpg">
+        <p id="ttimg5">Automobilismo</p><img id="img5" src="img/automobilismo.jpg">
+    
+        <div id="links">
     <!-- Links externos -->
+     <p>Meus links!</p>
      <p>Visite um pouco do meu trabalho <a href="https://iristcc.serv00.net/Site/Html/siteofc.html">meu site de tcc</a></p>
      <p>Minha atual Faculdade<a href="https://portal.fei.edu.br/"> FEI</a></p>
-     <p>Meu Git-Hub <a href="https://github.com/ManoGabs/GIT---projects">Projetos</a></p>
+     <p>Meu Git-Hub <a href="https://github.com/GabrielFabiani">Projetos</a></p>
+     </div>
 
      <!-- Iframe -->
+      <h3>Um pouco de tudo!</h3>
         <ul>
-        
         <li><p>Melhor música já feita</p><iframe width="560" height="315" src="https://www.youtube.com/embed/n9h7hU6_VI4?si=zNmR7Zzjp5IFyBru" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></li>
-        <li><p>Polêmica do momento</p><iframe width="560" height="315" src="https://www.youtube.com/embed/FpsCzFGL1LE?si=K0gmyxcgRqthTzpA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></li>
+        <li><p>Polêmica do ano!!</p><iframe width="560" height="315" src="https://www.youtube.com/embed/FpsCzFGL1LE?si=K0gmyxcgRqthTzpA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></li>
         <li><p>Local da minha faculdade</p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.6486945443503!2d-46.58197282378367!3d-23.72423626759788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4158ef9c7c05%3A0x776b798985695f52!2sFEI%20-%20Campus%20S%C3%A3o%20Bernardo%20do%20Campo!5e0!3m2!1spt-BR!2sbr!4v1755558636816!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></li>
         
     </ul>

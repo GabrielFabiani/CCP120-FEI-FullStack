@@ -1,0 +1,101 @@
+/* OBS: Como a estilização foi feita por notebook pode variar em outros dispositivos */
+#titulo{
+    text-align: center;
+    color: #333;
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+#texto1 {
+    text-align: left;
+    color: #555;
+    font-size: 1.2em;
+    max-width: 800px;
+}
+/* Arrumando as imagens e seus titulos */
+/* Texto e imagem 1 */
+#ttimg1{
+    position: absolute;
+    left: 57px;
+    color: #333;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#img1{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    top: 498px;
+    position: absolute;
+}
+/* Texto e imagem 2 */
+#ttimg2{
+    position: absolute;
+    left: 354px;
+    color: #333;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#img2{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    top: 498px;
+    left: 263px;
+    position: absolute;
+}
+/* Texto e imagem 3 */
+#ttimg3{
+    position: absolute;
+    left: 597px;
+    color: #333;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#img3{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    top: 498px;
+    left: 518px;
+    position: absolute;
+}
+/* Texto e imagem 4 */
+#ttimg4{
+    position: absolute;
+    left: 799px;
+    color: #333;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#img4{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    top: 498px;
+    left: 772px;
+    position: absolute;
+}
+/* Texto e imagem 5 */
+#ttimg5{
+    position: absolute;
+    left: 1120px;
+    color: #333;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#img5{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    top: 498px;
+    left: 1027px;
+    position: absolute;
+}
+
+/* Links */
+#links {
+    text-align: left;
+    margin-top: 250px;
+    color: #333;
+    font-size: 1.2em;
+}
